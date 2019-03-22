@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style> 
+    
+        body {background-color: rgb(196, 162, 78)} 
+
+    </style>
+
+</head>
+
+<header>
+        <div class = "contenedor-cabeza2a"> 
+           <ul>
+             <a href="index.html">Registrar</a>
+           </ul>
+        </div>  
+
+        <div class = "contenedor-cabeza2b"> 
+            <ul>
+               <a href="inicio.html">Inicio</a>
+             </ul>
+      </div> 
+</header>
+
+<body>
+
+    <form action="" method="POST">
+    <div class = "contenedor-form2"> 
+
+        <div>
+            <label for="input-birthdate">Fecha de Nacimiento: </label>
+            <input type="text" id= "birthdate" placeholder="00/00/0000">
+            <span class = "error-birthdate" ></span>
+          </div>
+  
+          <div>
+              <label for="input-cedula">Cedula: </label>
+              <input type="text" id= "cedula" placeholder="000000000">
+              <span class = "error-cedula" ></span>
+          </div>
+  
+          <div>
+              <label for="input-direccion">Direccion: </label>
+              <input type="text" id= "direccion" placeholder="">
+              <span class = "error-direccion" ></span>
+          </div>
+  
+          <div>
+              <label for="input-sexo">Sexo: </label>
+              <input type="text" id= "sexo" placeholder="F/M/O">
+              <span class = "error-sexo" ></span>
+          </div>
+  
+          <div>
+              <label for="input-estadocivil">Estado Civil: </label>
+              <input type="text" id= "estadocivil" placeholder="S/C/D/V/UL">
+              <span class = "error-estadocivil" ></span>
+          </div>
+
+    
+        <div>
+            <button type="button" id="btn-submit" >
+
+               Registrar
+
+            </button>
+        </div>
+    </div>
+    </form>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/user.js"></script>
+    
+    
+
+</body>
+
+</html>

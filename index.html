@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ingreso</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+ 
 
     <style> 
     
-        body {background-color: violet} 
+        body {background-color: rgb(221, 221, 25)} 
 
     </style>
 
 </head>
 
+<header>
+
+  <div class = "contenedor-cabezaa"> 
+     <ul>
+         <a href="Ingreso.html">Ingreso</a>
+     </ul>
+ </div>  
+
+ <div class = "contenedor-cabezab"> 
+    <ul>
+        <a href="inicio.html">Inicio</a>
+    </ul>
+</div>  
+
+</header>
+
+
 <body>
 
     <form action="" method="POST">
-     <div class = "contenedor-form"> 
+    <div class = "contenedor-form"> 
+       
 
+         <div> 
+            <label for="input-email">Correo: </label>
+            <input type="email" id="email" placeholder="raquel@morera.com">
+            <span class = "error-email" ></span>
+        
+        </div>
+        <div>
+            <label for="input-password">Contraseña: </label>
+            <input type="password" id="password"placeholder="********">
+            <span class = "error-password" ></span>
+        </div>
 
         <div>
             <label for="input-name">Nombre: </label>
-            <input name="text" id="input-name"placeholder="Raquel">
+            <input name="name" id="name"placeholder="">
+            <span class = "error-name" ></span>
         </div>
 
         <div>
             <label for="input-lastname">Primer Apellido: </label>
-            <input type="text" id="input-lastname"placeholder="Morera">
-        </div>
-
-        <div>
-            <label for="input-pass">Contraseña: </label>
-            <input pass="password" id="input-pass"placeholder="********">
+            <input type="lastname" id="lastname"placeholder="">
+            <span class = "error-lastname" ></span>
         </div>
 
        <div>
             <label for="input-phone">Telefono: </label>
-            <input type="text" id="input-phone"placeholder="6347-8924">
+            <input type="phone" id="phone"placeholder="">
+            <span class = "error-phone" ></span>
       </div>
 
-      <form>
-          <label for="">Correo: </label>
-            <input id="email" type="email">
-            <span class="error-email"></span>
+   
+    
+        <div>
+            <button type="button" id="btn-submit"  >
 
-           <div>
-            <button type="button" id="btn-submit-form">
+                Ingresar
 
-             Ingresar
-
-             </button>
-            </div>
-
-      </form>  
-
+            </button>
+        </div>
     </div>
     </form>
 
@@ -66,6 +89,10 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+ 
+
+
 </body>
 
 </html>
