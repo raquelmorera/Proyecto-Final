@@ -5,6 +5,9 @@
     justify-content: space-around;
     height: 300px;
     width: 100%;
+    color: rgb(20, 13, 59);
+    font-size: 130%;
+   
   
   }
   
@@ -15,155 +18,140 @@
     justify-content: space-around;
     height: 290px;
     width: 100%;
+    color: rgb(20, 13, 59);
+    font-size: 130%;
+  
     
   }
 
   .contenedor-cabezaa{
-   height: 50px;
+   height: 200px;
    display: flex;
-   font-size: 120%;
-   flex-direction: inherit; 
+   font-size: 100%;
+   justify-content: center;
    
    
   
   }
 
   .contenedor-cabezaa ul a{
+    cursor: pointer;
     text-decoration-line: none;
-    color: white;
-    font-size: 150%
+    margin-right: 10px;
+    padding: 10px;
+    color: darkblue;
+    font-size: 200%;
+    background-color: lightblue;
     
-   
+    
+   }
+  
+   .contenedor-cabezaa ul a:hover{
+  
+    color: rgb(0, 153, 255);
+    background-color: white;
+  
    }
 
-  .contenedor-cabezab{
-    height: 70px;
-    display: flex;
-    font-size: 120%;
-   flex-direction: inherit; 
-   
-   }
-
-   .contenedor-cabezab ul a{
-    text-decoration-line: none;
-    color: white;
-    font-size: 150%
-    
-   
-   }
    
   
 
   .contenedor-cabeza2a{
-    height: 50px;
+     height: 200px;
     display: flex;
-    flex-direction: column;
-    font-size: 120%;
+    font-size: 100%;
+    justify-content: center;
     
   }
 
   .contenedor-cabeza2a ul a{
-  text-decoration-line: none;
-  color: white;
-  font-size: 150%
-    
-  }
-
-  .contenedor-cabeza2b{
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    font-size: 120%;
-    
-  }
-
-  .contenedor-cabeza2b ul a{
+    cursor: pointer;
     text-decoration-line: none;
-    color: white;
-    font-size: 150%
-      
-    }
-
+    margin-right: 10px;
+    padding: 10px;
+    color: darkblue;
+    font-size: 200%;
+    background-color: lightblue;
+    
+    
+   }
+  
+   .contenedor-cabeza2a ul a:hover{
+  
+    color: rgb(0, 153, 255);
+    background-color: white;
+  
+   }
 
   
   .contenedor-inicio{
 
-       display: flex;
-     text-align: center;
-     justify-content: center;
-     align-items: center;
-      
+    display: flex;
+   justify-content: center;
+   font-size: 100%;
+    width: 100%;
+    height: 300px;
     
-
-    }
-
-  .contenedor-inicio ul {
-
-      display: flex;
-     text-align: center;
-     justify-content: center;
-     
-     
-
-  }
-
-  .contenedor-inicio ul a {
-    text-decoration-line: none;
-    font-style: inherit;
-    color: white;
-    font-size: 300%
-
-  }
-  
  
+  }
+
+  h3{
+ 
+    color: white;
+    font-size: 150%;
+   
+  }
+
   .contenedor-inicio2{
 
-      display: flex;
-     text-align: center;
-     justify-content: center;
-      align-items: center;
-     
-     
- } 
+   display: flex;
+   text-align: center;
 
- .contenedor-inicio2 ul {
+  }
 
-     display: flex;
-     text-align: center;
-     justify-content: center;
+  .contenedor-inicio2 p{
+    color: white;
+    font-size: 150%;
 
-}
 
-.contenedor-inicio2 ul a {
-  text-decoration-line: none;
-  font-style: inherit;
-  color: white;
-  font-size: 300%
+  }
 
-}
+
 
  .contenedor-arriba{
    display: flex;
    text-align: center;
-   align-items: center;
-   width: 300px;
-   height: 300px;
    justify-content: center;
-
-
+   
+     
  }
 
- h3{
- 
-  color: white;
-  font-size: 150%
+ .contenedor-arriba ul{
+   display: flex;
+ }
 
+ .contenedor-arriba ul a{
+  cursor: pointer;
+  text-decoration-line: none;
+  margin-right: 10px;
+  padding: 10px;
+  color: rgb(0, 153, 255);
+  font-size: 200%;
+  background-color: white;
+  
+  
+ }
+
+ .contenedor-arriba ul a:hover{
+
+  color: darkblue;
+  background-color:lightblue;
 
  }
 
  body{
-background: url(../fondos/9e0f4d88200ee11b52188bf8177f897a.jpg)no-repeat fixed center center;
-background-size: cover;
+  background: url(../fondos/9e0f4d88200ee11b52188bf8177f897a.jpg)no-repeat fixed center center;
+  background-size: cover;
 
  }
 
